@@ -1,8 +1,8 @@
 import 'jsdom-global/register';
 import React from 'react';
 import { mount } from 'enzyme';
-import _ from 'react-bootstrap-table-next/src/utils';
-import op from 'react-bootstrap-table-next/src/store/operators';
+import _ from 'inctable-react-bootstrap-table-next/src/utils';
+import op from 'inctable-react-bootstrap-table-next/src/store/operators';
 
 import cellEditFactory from '..';
 import { CLICK_TO_CELL_EDIT, DBCLICK_TO_CELL_EDIT, DELAY_FOR_DBCLICK } from '../src/const';
